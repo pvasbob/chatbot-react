@@ -1,0 +1,67 @@
+React = external library that helps us create websites easier. 
+
+React = shared features
+ReactDOM = features specific to websites.
+
+=======================================================================
+
+Using React to creatre websites:
+= load React & ReactDOM
+
+Using React to create mobile apps:
+=  load React & ReactNative
+
+=======================================================================
+
+Babel = JavaScript compiler
+      =  translats other languages into JavaScript
+
+When using Reactr, we don't use normal JavaScript
+We use enhanced version of JavaScript = JSX = JavsScript XML
+  = same as JavaScript, but we can write HTML directly in our JavaScript code.
+
+Problem with JSX:
+- Our web browser donesn't understand JSX
+- Need to translate JSX into JavaScript.
+- Babel = translate JSX into JavaScript.
+    To use Babel, two steps:
+        1. load the babel.js 
+        2. we give the script element an type="text/babel"
+
+=======================================================================
+
+component  = a piece of the webiste
+
+In React the component name must start with a capital letter.
+JSX is m ore restric than normal HTML. All elements need a closing tag.
+
+in React, each component name must start with a capital letter.
+
+Here’s why:
+
+React uses capital letters to tell the difference between HTML tags (like <div> or <button>) and your own components.
+
+If you start a component name with a lowercase letter, React will think it’s a built-in HTML element and won’t render your component correctly.
+
+
+Main idea of React:
+We can create our own HTML elements.
+
+React lets us split our website into small pieces.(This let us work on small piece of the webiste at a time)
+
+Fragment(<></>), avoid of introducing extra <div>
+
+State = data that is connected to the HTML
+When we updaet this data, it will update the HTML
+
+=======================================================================
+
+
+
+
+
+=======================================================================
+=======================================================================
+=======================================================================
+=======================================================================
+=======================================================================
