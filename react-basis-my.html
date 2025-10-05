@@ -2,6 +2,11 @@
 <html>
   <head>
     <title>React Basics</title>
+    <style>
+      .send-button {
+        background-color: lightgreen;
+      }
+    </style>
   </head>
   <body>
     <div class="js-container"></div>
@@ -53,7 +58,9 @@
               onChange={saveInputText}
               value={inputText}
             />
-            <button onClick={sendMessage}>Send</button>
+            <button onClick={sendMessage} className="send-button">
+              Send
+            </button>
           </>
         );
       }
